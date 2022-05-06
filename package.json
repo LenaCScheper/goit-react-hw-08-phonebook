@@ -1,56 +1,65 @@
 {
-    "name": "goit-react-hw-08-phonebook",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "@reduxjs/toolkit": "^1.8.1",
-        "@testing-library/jest-dom": "^5.11.6",
-        "@testing-library/react": "^11.2.2",
-        "@testing-library/user-event": "^12.5.0",
-        "classnames": "^2.3.1",
-        "prop-types": "^15.8.1",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
-        "react-redux": "^8.0.1",
-        "react-router-dom": "^6.3.0",
-        "react-scripts": "4.0.1",
-        "react-use": "^17.3.2",
-        "redux-persist": "^6.0.0",
-        "shortid": "^2.2.16",
-        "style": "0.0.3",
-        "web-vitals": "^0.2.4"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build",
-        "deploy": " gh-pages -d build"
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "devDependencies": {
-        "gh-pages": "^3.2.3",
-        "husky": "^4.3.5",
-        "lint-staged": "^10.5.3",
-        "prettier": "^2.2.1"
-    },
-    "homepage": "https://lenacscheper.github.io/goit-react-hw-08-phonebook"
+  "name": "goit-react-hw-08-phonebook",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://lenacscheper.github.io/goit-react-hw-08-phonebook/",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "gh-pages": "^3.1.0",
+    "json-server": "^0.16.1",
+    "modern-normalize": "^0.6.0",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.3.1",
+    "react-scripts": "4.0.1",
+    "react-spinners": "^0.10.4",
+    "react-toastify": "^6.2.0",
+    "react-use": "^17.3.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "shortid": "^2.2.16",
+    "slugify": "^1.4.6",
+    "style": "0.0.3",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "husky": "^4.3.5",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy -p"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
