@@ -1,0 +1,10 @@
+.label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-family: roboto;
+  font-weight: 700;
+  color: rgb(96, 105, 99);
+  font-size: 20px;
+  width: 340px;
+}
