@@ -3,9 +3,6 @@ import NameForm from '../components/NameForm/NameForm';
 import Filter from '../components/Filter';
 import Container from '../components/Container';
 
-
-
-
 export default function PhonebookView() {
     return(
      <Container>

@@ -10,7 +10,7 @@ const styles = {
     justifyContent: 'space-between',
     alignItems: 'center',
     borderBottom: '1px solid #2A363B',
-    background: '#d2d2d2',
+    background: 'rgb(228,139,225)',
     borderRadius: '10px',
   },
 };

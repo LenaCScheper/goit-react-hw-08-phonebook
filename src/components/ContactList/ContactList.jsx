@@ -43,7 +43,7 @@ function ContactList() {
     return (
       <div>
         {error && <h2>{error.message}</h2>}
-        <p>Ща гляну.Наверное снова кот провода погрыз!</p>
+  
       </div>
     )
   }

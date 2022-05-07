@@ -1,9 +1,6 @@
 import axios from 'axios';
 import * as actions from './actions';
 
-
-
-
 export const addContact = (name,number)=>dispatch => {
     const contact = {
         name,
